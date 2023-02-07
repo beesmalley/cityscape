@@ -1,3 +1,57 @@
 body{
-    background-color: black;
+    background-image: url("/landscape/twinkletwinkle.gif");
 }
+#members{
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+#car{
+    width:300px;
+    margin-left: 200px;
+    margin-right: auto;
+    position: absolute;
+
+
+}
+#guy{
+    width:200px;
+
+}
+.rotate {
+    animation: rotation 8s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+#goku{
+    float:left;
+    width:100px;
+}
+
+#sky{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#carcrash{
+    float:right;
+    margin-right: 10%;
+}
+#flower{
+    width:100px;
+    height:100px;
+}
+#road{
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+}
+
